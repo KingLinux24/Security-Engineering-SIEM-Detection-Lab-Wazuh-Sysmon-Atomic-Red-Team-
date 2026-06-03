@@ -9,10 +9,11 @@ To optimize computing resources and prevent performance bottlenecks, the archite
 
 ## 🏗️ Lab Architecture & Environment
 
-* **SIEM / Centralized Manager:** Wazuh Server v4.14.5 hosted on a Linux Virtual Machine (VMware).
-* **Monitored Endpoint:** Physical Windows 11 Desktop (Wazuh Agent + Microsoft Sysmon).
-* **Adversary Emulation Engine:** Red Canary's `Invoke-AtomicRedTeam` framework.
+## 🏗️ Lab Architecture & Environment
 
+* **SIEM / Centralized Manager:** [Wazuh Server v4.14.5](https://documentation.wazuh.com/current/quickstart.html) hosted on a Linux Virtual Machine (VMware).
+* **Monitored Endpoint:** Physical Windows 11 Desktop monitored via the [Wazuh Agent](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-windows.html) + [Microsoft Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon).
+* **Adversary Emulation Engine:** Red Canary's [Invoke-AtomicRedTeam](https://github.com/redcanaryco/invoke-atomicredteam) framework.
 ---
 
 ## 🛠️ Step-by-Step Implementation
